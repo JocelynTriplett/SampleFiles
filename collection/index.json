@@ -4,7 +4,7 @@
 "http://iiif.io/api/presentation/3/context.json"
 ],
 "type": "Manifest",
-"id": "https://pedantic-golick-1ad4f9.netlify.com/bunny.ply.json",
+"id": "https://pedantic-golick-1ad4f9.netlify.com/collection/index.json",
 "label": {
 "@none": [
 "[Medical X-Ray Computed Tomography (CT)]"
@@ -15,7 +15,7 @@
 "items": [
 {
 "type": "Canvas",
-"id": "http://localhost:3000/concern/media/4q77fr33m/manifest/canvas/pz50gw105",
+"id": "https://pedantic-golick-1ad4f9.netlify.com/collection/index.json/canvas/0",
 "label": {
 "@none": [
 "bunny.gltf"
@@ -24,7 +24,7 @@
 "items": [
 {
 "type": "AnnotationPage",
-"id": "http://localhost:3000/concern/media/4q77fr33m/manifest/canvas/pz50gw105/annotation_page/11dc9386-d0f3-47ee-b7e4-fe8c57be8162",
+"id": "https://pedantic-golick-1ad4f9.netlify.com/collection/index.json/canvas/0/annotationpage/0",
 "items": [
 {
 "type": "Annotation",
@@ -34,7 +34,7 @@
 "type": "PhysicalObject",
 "format": "model/gltf+json"
 },
-"target": "http://localhost:3000/concern/media/4q77fr33m/manifest/canvas/pz50gw105"
+"target": "https://pedantic-golick-1ad4f9.netlify.com/collection/index.json/canvas/0"
 }
 ]
 }
