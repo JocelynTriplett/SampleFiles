@@ -4,7 +4,7 @@
 "http://iiif.io/api/presentation/3/context.json"
 ],
 "type": "Manifest",
-"id": "http://localhost:3000/concern/media/4q77fr33m/manifest",
+"id": "https://raw.githubusercontent.com/JocelynTriplett/SampleFiles/master/bunny.ply.json",
 "label": {
 "@none": [
 "[Medical X-Ray Computed Tomography (CT)]"
@@ -30,7 +30,7 @@
 "type": "Annotation",
 "motivation": "painting",
 "body": {
-"id": "/downloads/pz50gw105?file=glb",
+"id": "https://raw.githubusercontent.com/JocelynTriplett/SampleFiles/master/bunny.ply",
 "type": "PhysicalObject",
 "format": "model/gltf+json"
 },
