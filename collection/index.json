@@ -1,47 +1,31 @@
-{
-"@context": [
-"http://www.w3.org/ns/anno.jsonld",
-"http://iiif.io/api/presentation/3/context.json"
-],
-"type": "Manifest",
-"id": "https://pedantic-golick-1ad4f9.netlify.com/collection/index.json",
-"label": {
-"@none": [
-"[Medical X-Ray Computed Tomography (CT)]"
-]
-},
-"metadata": null,
-"rendering": [],
-"items": [
-{
-"type": "Canvas",
-"id": "https://pedantic-golick-1ad4f9.netlify.com/collection/index.json/canvas/0",
-"label": {
-"@none": [
-"bunny.gltf"
-]
-},
-"items": [
-{
-"type": "AnnotationPage",
-"id": "https://pedantic-golick-1ad4f9.netlify.com/collection/index.json/canvas/0/annotationpage/0",
-"items": [
-{
-"type": "Annotation",
-"motivation": "painting",
-"body": {
-"id": "https://pedantic-golick-1ad4f9.netlify.com/bunny.ply",
-"type": "PhysicalObject",
-"format": "model/gltf+json"
-},
-"target": "https://pedantic-golick-1ad4f9.netlify.com/collection/index.json/canvas/0"
-}
-]
-}
-],
-"width": null,
-"height": null,
-"duration": null
-}
-]
+{ "@context":
+  [ "http://www.w3.org/ns/anno.jsonld", "http://iiif.io/api/presentation/3/context.json"],
+  "type": "Manifest",
+  "id": "https://pedantic-golick-1ad4f9.netlify.com/collection/index.json",
+  "label": { "@none": [ "[Medical X-Ray Computed Tomography (CT)]" ] },
+  "metadata": null,
+  "rendering": [],
+  "items": [
+    { "type": "Canvas",
+      "id": "https://pedantic-golick-1ad4f9.netlify.com/collection/index.json/canvas/0",
+      "label": { "@none": ["bunny.gltf" ] },
+       "items": [
+         { "type": "AnnotationPage",
+           "id": "https://pedantic-golick-1ad4f9.netlify.com/collection/index.json/canvas/0/annotationpage/0",
+           "items": [
+             { "type": "Annotation",
+               "motivation": "painting",
+               "body":
+                  { "id": "https://pedantic-golick-1ad4f9.netlify.com/bunny.ply",
+                    "type": "PhysicalObject",
+                    "format": "model/ply+json" },
+                "target": "https://pedantic-golick-1ad4f9.netlify.com/collection/index.json/canvas/0" }
+            ]
+          }
+        ],
+      "width": null,
+      "height": null,
+      "duration": null
+    }
+  ]
 }
